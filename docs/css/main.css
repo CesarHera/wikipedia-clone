@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+
+
+.wikipedia-brand-logo {
+    width: 17rem;
+    height: 6rem;
+    margin: 0 auto;
+    margin-top: 5.5rem;
+}
+.wikipedia-brand-logo-container {
+    width: 100%
+}
+.wikipedia-brand-logo-container img{
+    width: 100%;
+}
+.wikipedia-brand-logo-container figcaption {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+
+
+.main-section {
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-section ul {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    font-size: 1.6rem;
+}
+.main-section ul li {
+    text-align: center;
+    margin: 1.5rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-section ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #36c;
+}
+.main-section ul li a:hover{
+    text-decoration: underline;
+}
+.main-section ul li p{
+    color: #54595d;
+    font-size: 1.3rem;
+}
+
+.lang-list-left li:nth-child(1), .lang-list-left li:nth-last-child(1) {
+    margin-left: auto;
+}
+.lang-list-left li:nth-child(3) {
+    margin-right: 2rem;
+}
+
+.wikipedia-logo-container {
+    width: 20rem;
+}
+.wikipedia-logo-container img {
+    width: 100%;
+}
+
+.lang-list-right li:nth-child(1), .lang-list-right li:nth-last-child(1){
+    margin-right: auto;
+}
+.lang-list-left li:nth-child(3) {
+    margin-left: 2rem;
+}
+
+
+
+.search {
+    margin: 0 auto;
+    margin-top: 4rem;
+    height: 4.5rem;
+    width: 44rem;
+    display: flex;
+    font-size: 1.6rem;
+}
+.search-container {
+    font-size: inherit;
+    width: 87%;
+    height: 100%;
+    border: 1px solid #a2a9b1;
+}
+.search-container:hover {
+    border: 1px solid #72777d;
+}
+
+.search-container input {
+    font-size: inherit;
+    width: 80%;
+    height: 100%;
+    border: 0;
+    padding: 1rem 2rem;
+}
+.search-container input:focus-visible {
+    outline: none;
+}
+
+.search-container select {
+    color: #54595d;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    border: 0;
+    font-family: -apple-system, sans-serif;
+    font-size: 1.3rem;
+}
+.search-container select:focus-visible {
+    outline: none;
+}
+
+.search-button-container {
+    height: 100%;
+    width: 13%;
+}
+
+.search-button-container button{
+    background-image: url('https://www.vippng.com/png/full/493-4938160_magnifying-glass-png-white-search-icon-white-png.png');
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    font-size: inherit;
+    background-color: #3366cc;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 0 2px 2px 0;
+}
+
+
+
+
+.change-lang {
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 46rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.change-lang hr {
+    border-color: #dee1e475;
+    width: 6rem;
+}
+
+.change-lang-button {
+    height: 100%;
+    width: 30.8rem;
+    margin: 0 1.5rem;
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+.change-lang-button:hover {
+    background-color: #fff;
+}
+.change-lang-button span:nth-child(1) {
+    height: 18px;
+    width: 24px;
+    background-image: url('../pics/lang-icon.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.change-lang-button span:nth-child(2) {
+    padding-right: 10px;
+    font-family:-apple-system, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #36c;
+}
+.change-lang-button span:nth-child(3) {
+    margin-top: 2px;
+    height: 13px;
+    width: 13px;
+    background-image: url('../pics/down-icon.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+body>hr {
+    margin: 3.5rem 0;
+    border-color: #dee1e475;
+}
